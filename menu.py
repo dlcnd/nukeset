@@ -3,11 +3,7 @@ import nukescripts
 import checkenv
 import openfile
 import makewrite
-<<<<<<< HEAD
 import nukelibrary
-=======
-import nklibrary
->>>>>>> 369fbf64ea3f0fcacb4a35ebdafbff844c9cd997
 
 tb = nuke.toolbar("Nodes")
 m = tb.addMenu("Lazypic", icon="lazypic_logo.png")
@@ -24,8 +20,4 @@ mb.addCommand("-","","")
 mb.addCommand("CheckENV", "checkenv.main()")
 mb.addCommand("OpenFile", "reload(openfile);openfile.main()", "F8", shortcutContext=2)
 mb.addCommand("MakeWrite", "reload(makewrite);makewrite.main()", "F10", shortcutContext=2)
-<<<<<<< HEAD
 mb.addCommand("NkLibrary", "reload(nukelibrary);nukelibrary.main()")
-=======
-mb.addCommand("Nklibrary", "reload(nklibrary);nklibrary.main()")
->>>>>>> 369fbf64ea3f0fcacb4a35ebdafbff844c9cd997
